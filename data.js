@@ -1,9 +1,9 @@
 const reactSnippet = {  // This is a react element description object
     parent: null,
     sibling:null,
-    children: {
+    children: { //first child
         parent: null,
-        children:{
+        children:{ // grand child
             parent: null,
             sibling:null,
             children: null,
@@ -12,21 +12,21 @@ const reactSnippet = {  // This is a react element description object
                 color: "white"
             },
             tag: "p",
-            value: "some hghj"
+            value: "Grand Child"
         },
         style: {
             backgroundColor: "red",
             color: "white"
         },
         tag: "div",
-        value: "some Valjkkjbjh"
+        value: "Child"
     },
     style: {
         backgroundColor: "red",
         color: "white"
     },
     tag: "div",
-    value: "some Value"
+    value: "Parent"
 }
 
 export default reactSnippet;
